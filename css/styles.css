@@ -275,3 +275,35 @@ a:hover { color: var(--magenta); }
   .section { padding: 3rem 0; }
   .stats { gap: 1.4rem; }
 }
+
+
+/* ===== Mechanics table ===== */
+.mtable-wrap { overflow-x: auto; margin-top: 1.2rem; }
+.mtable { width: 100%; border-collapse: collapse; font-size: .95rem; }
+.mtable th, .mtable td { text-align: left; padding: .7rem .75rem; border-bottom: 1px solid var(--hairline); vertical-align: top; }
+.mtable thead th { font-family: 'Space Grotesk', sans-serif; color: var(--indigo); font-size: .75rem; text-transform: uppercase; letter-spacing: .06em; border-bottom: 2px solid var(--hairline-2); }
+.mtable tbody tr:hover { background: var(--bg-tint); }
+.mtable .num { color: var(--muted); font-family: 'Space Grotesk', sans-serif; font-weight: 700; width: 1.8rem; }
+.mtable .mname { font-weight: 600; color: var(--ink); }
+@media (max-width: 640px) { .mtable, .mtable th, .mtable td { font-size: .88rem; } }
+
+.mtable .eg { display: block; margin-top: .4rem; font-size: .85rem; color: var(--muted); line-height: 1.5; }
+.mtable .eg b { color: var(--indigo); font-weight: 600; }
+
+
+/* ===== Mechanics accordion (expandable deep-dives) ===== */
+.macc { max-width: 840px; margin: 1.4rem auto 0; }
+.macc-item { border: 1px solid var(--hairline); border-radius: var(--radius); margin-bottom: .7rem; background: #fff; box-shadow: var(--shadow-sm); overflow: hidden; }
+.macc-item summary { list-style: none; cursor: pointer; display: flex; gap: .9rem; align-items: flex-start; padding: 1rem 1.2rem; }
+.macc-item summary::-webkit-details-marker { display: none; }
+.macc-num { flex-shrink: 0; width: 30px; height: 30px; border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: .95rem; color: #fff; background: linear-gradient(135deg, var(--indigo), var(--magenta)); }
+.macc-head { display: flex; flex-direction: column; gap: .12rem; flex: 1; }
+.macc-name { font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 1.05rem; color: var(--ink); }
+.macc-one { font-size: .9rem; color: var(--muted); }
+.macc-item summary::after { content: '+'; color: var(--indigo); font-weight: 700; font-size: 1.35rem; line-height: 1; }
+.macc-item[open] summary::after { content: '\2013'; }
+.macc-body { padding: 0 1.2rem 1.2rem 3.1rem; }
+.macc-body p { color: var(--ink-soft); font-size: .97rem; margin-bottom: .8rem; }
+.macc-body .eg { color: var(--ink-soft); font-size: .92rem; background: var(--bg-tint); border-left: 3px solid var(--indigo); padding: .65rem .85rem; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; margin-bottom: 0; }
+.macc-body .eg b { color: var(--indigo); }
+@media (max-width: 640px) { .macc-body { padding-left: 1.2rem; } }
