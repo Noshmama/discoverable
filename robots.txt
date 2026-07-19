@@ -29,4 +29,4 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-Sitemap: https://discoverable.ai/sitemap.xml
+Sitemap: https://getdiscoverable.io/sitemap.xml
