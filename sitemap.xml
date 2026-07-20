@@ -1,42 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://discoverable.ai/</loc>
+    <loc>https://getdiscoverable.io/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://discoverable.ai/playbook/</loc>
+    <loc>https://getdiscoverable.io/playbook/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://discoverable.ai/case-study/</loc>
+    <loc>https://getdiscoverable.io/case-study/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://discoverable.ai/work-with-me/</loc>
+    <loc>https://getdiscoverable.io/work-with-me/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://discoverable.ai/about/</loc>
+    <loc>https://getdiscoverable.io/about/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://discoverable.ai/blog/</loc>
+    <loc>https://getdiscoverable.io/blog/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://discoverable.ai/blog/seo-aeo-geo/</loc>
+    <loc>https://getdiscoverable.io/blog/seo-aeo-geo/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://discoverable.ai/blog/colaclear-ai-overview/</loc>
+    <loc>https://getdiscoverable.io/blog/colaclear-ai-overview/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://getdiscoverable.io/blog/why-ai-names-some-wineries/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
