@@ -231,6 +231,17 @@ a:hover { color: var(--magenta); }
 .bio { display: flex; gap: 2rem; align-items: flex-start; }
 .bio img { width: 168px; height: 168px; border-radius: var(--radius); object-fit: cover; flex-shrink: 0; border: 1px solid var(--hairline-2); box-shadow: var(--shadow-sm); }
 
+/* Contact business card */
+.vcard { display: flex; gap: 1.4rem; align-items: center; text-align: left; background: #fff; border: 1px solid var(--hairline-2); border-radius: 16px; box-shadow: var(--shadow-md); padding: 1.5rem 1.7rem; max-width: 470px; margin: 1.6rem auto 0; }
+.vcard-photo { width: 96px; height: 96px; border-radius: 50%; object-fit: cover; flex-shrink: 0; border: 2px solid var(--hairline-2); }
+.vcard-name { font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 1.25rem; color: var(--ink); line-height: 1.2; }
+.vcard-title { color: var(--muted); font-size: .85rem; margin: .15rem 0 .75rem; }
+.vcard-links { display: flex; flex-direction: column; gap: .38rem; }
+.vcard-links a { color: var(--indigo); text-decoration: none; font-size: .95rem; font-weight: 500; display: inline-flex; align-items: center; gap: .55rem; width: fit-content; }
+.vcard-links a:hover { text-decoration: underline; }
+.vcard-links .ic { width: 1.05rem; text-align: center; color: var(--magenta); flex-shrink: 0; font-style: normal; }
+@media (max-width: 560px) { .vcard { flex-direction: column; text-align: center; } .vcard-links { align-items: center; } .vcard-links a { width: auto; } }
+
 /* Page header (subpages) */
 .page-head { padding: 3rem 0 1.5rem; }
 .page-head h1 { font-size: 2.6rem; margin-bottom: .6rem; }
