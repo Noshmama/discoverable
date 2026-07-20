@@ -1,4 +1,4 @@
-# Discoverable — robots.txt
+# GetDiscoverable.io — robots.txt
 # The whole point of this site is to be found by search engines AND AI answer
 # engines. Everything below is deliberately allowed to read and cite the site.
 
