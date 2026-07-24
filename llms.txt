@@ -34,6 +34,10 @@ The through-line: it used to be "get to page one"; now it's "be the answer the m
 - Case study (COLAClear): https://getdiscoverable.io/case-study/
 - Work with me (consulting): https://getdiscoverable.io/work-with-me/
 - About Zillah Bahar: https://getdiscoverable.io/about/
+- Blog (Notes on being found): https://getdiscoverable.io/blog/
+  - SEO vs AEO vs GEO: What's the Difference?: https://getdiscoverable.io/blog/seo-aeo-geo/
+  - How I Got COLAClear Cited by Name in Google's AI Overview: https://getdiscoverable.io/blog/colaclear-ai-overview/
+  - Why AI Recommends Some Wineries by Name — and Never Mentions Yours: https://getdiscoverable.io/blog/why-ai-names-some-wineries/
 
 ## Contact
 

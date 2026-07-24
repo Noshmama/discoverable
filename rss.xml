@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>GetDiscoverable.io — Notes on being found</title>
+  <link>https://getdiscoverable.io/blog/</link>
+  <atom:link href="https://getdiscoverable.io/rss.xml" rel="self" type="application/rss+xml"/>
+  <description>Plain-English writing on SEO, AEO, and GEO — how a business gets found by search engines and AI assistants. By Zillah Bahar.</description>
+  <language>en-us</language>
+  <item>
+    <title>SEO vs AEO vs GEO: What's the Difference?</title>
+    <link>https://getdiscoverable.io/blog/seo-aeo-geo/</link>
+    <guid isPermaLink="true">https://getdiscoverable.io/blog/seo-aeo-geo/</guid>
+    <pubDate>Sun, 19 Jul 2026 00:00:00 -0700</pubDate>
+    <description>A plain-English guide to the three ways people and AI find you online in 2026 — search engines, answer engines, and generative engines — and why you can no longer optimize for only the first.</description>
+  </item>
+  <item>
+    <title>How I Got COLAClear Cited by Name in Google's AI Overview</title>
+    <link>https://getdiscoverable.io/blog/colaclear-ai-overview/</link>
+    <guid isPermaLink="true">https://getdiscoverable.io/blog/colaclear-ai-overview/</guid>
+    <pubDate>Sun, 19 Jul 2026 00:00:00 -0700</pubDate>
+    <description>A first-person account of the work behind a by-name AI citation — writing for real questions, machine-readable signals (schema.org, llms.txt), AI-crawler access, and earned authority. No budget, no team.</description>
+  </item>
+  <item>
+    <title>Why AI Recommends Some Wineries by Name — and Never Mentions Yours</title>
+    <link>https://getdiscoverable.io/blog/why-ai-names-some-wineries/</link>
+    <guid isPermaLink="true">https://getdiscoverable.io/blog/why-ai-names-some-wineries/</guid>
+    <pubDate>Sun, 19 Jul 2026 00:00:00 -0700</pubDate>
+    <description>When a buyer asks ChatGPT for a great bottle, some wineries get named and others vanish. What separates them — machine-readable text, one consistent name, structured data, open crawler access — and how to fix it.</description>
+  </item>
+</channel>
+</rss>
