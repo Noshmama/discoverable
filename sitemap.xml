@@ -36,6 +36,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://getdiscoverable.io/blog/how-to-make-your-business-discoverable-on-ai/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://getdiscoverable.io/blog/how-to-tell-if-ai-cant-see-your-brand/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
