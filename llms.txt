@@ -33,6 +33,7 @@ The through-line: it used to be "get to page one"; now it's "be the answer the m
 - Playbook (the 8 mechanics): https://getdiscoverable.io/playbook/
 - Case study (COLAClear): https://getdiscoverable.io/case-study/
 - Work with me (consulting): https://getdiscoverable.io/work-with-me/
+- FAQ (getting found by AI): https://getdiscoverable.io/faq/
 - Free AI-Visibility Checklist: https://getdiscoverable.io/checklist/
 - About Zillah Bahar: https://getdiscoverable.io/about/
 - Blog (Notes on being found): https://getdiscoverable.io/blog/
