@@ -97,8 +97,15 @@
       <h3>3. Go by one name, everywhere</h3>
       <p>Your distillery name, your brand and expression names, your proof and age statements &mdash; they need to match across your own site, Distiller, Whiskybase, Total Wine, Google, and your distributors&rsquo; listings. When your brand shows up three slightly different ways, you teach the machine you&rsquo;re three faint strangers instead of one trusted name.</p>
 
-      <h3>4. Add the &ldquo;hidden labels&rdquo;</h3>
-      <p>There&rsquo;s a small chunk of code you can add to a page that never shows on screen &mdash; its only job is to tell a machine what each thing <em>is</em>: &ldquo;this is a distillery,&rdquo; &ldquo;this is a product,&rdquo; &ldquo;this is a 4.3-star review.&rdquo; It&rsquo;s called <strong>structured data</strong>, and it&rsquo;s like the tag sewn into a shirt collar &mdash; the visitor never sees it, but it spells everything out. Most distillery sites skip it. You won&rsquo;t touch it yourself; just ask whoever runs your site to &ldquo;add structured data for the distillery, the products, and reviews.&rdquo;</p>
+      <h3>4. Add the &ldquo;hidden labels&rdquo; (structured data)</h3>
+      <p>There&rsquo;s a small chunk of code you can add to a page that never shows on screen &mdash; its only job is to tell a machine what each thing <em>is</em>: &ldquo;this is a distillery,&rdquo; &ldquo;this is a product,&rdquo; &ldquo;this is a 4.3-star review.&rdquo; It&rsquo;s called <strong>structured data</strong> (the technical name is <em>schema.org markup</em>), and it&rsquo;s like the tag sewn into a shirt collar &mdash; the visitor never sees it, but it spells everything out. Most distillery sites skip it, which leaves the machine guessing.</p>
+      <p><strong>How to actually add it &mdash; you won&rsquo;t hand-write it:</strong></p>
+      <ol>
+        <li><strong>Decide what to mark up.</strong> The usual three: your distillery as a business (name, location, hours), each expression as a product, and your ratings and reviews.</li>
+        <li><strong>Have it generated.</strong> If your site runs on <strong>Shopify, Squarespace, or WordPress</strong>, a built-in setting or an SEO/schema plugin (like Yoast) can add it for you. If it&rsquo;s a custom site, your web developer drops in a short snippet &mdash; a format called <em>JSON-LD</em>, which is just structured data written as a small block of text in the page&rsquo;s code.</li>
+        <li><strong>Confirm it worked.</strong> Paste the page&rsquo;s web address into <a href="https://search.google.com/test/rich-results" target="_blank" rel="noopener">Google&rsquo;s free Rich Results Test</a> &mdash; it reads the page and tells you exactly what structured data it found.</li>
+      </ol>
+      <p>The one-line instruction for whoever runs your site: <em>&ldquo;add schema.org structured data for the distillery, the products, and reviews, and verify it in Google&rsquo;s Rich Results Test.&rdquo;</em></p>
 
       <h3>5. Make sure you&rsquo;re not locked out</h3>
       <p>Search engines and AI send out automated readers (called <em>crawlers</em>) to read your pages. A full-screen &ldquo;Are you 21?&rdquo; wall &mdash; or a heavy drag-and-drop site build &mdash; can accidentally block those readers, so they see nothing. You usually don&rsquo;t need to drop the age check; you need it built so the page still loads underneath for the crawlers. If they can&rsquo;t get in, you can never be recommended, so it&rsquo;s worth having someone check.</p>
