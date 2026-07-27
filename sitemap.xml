@@ -41,6 +41,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://getdiscoverable.io/blog/distillery-website-checklist-ai/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://getdiscoverable.io/blog/tasting-note-for-spirits-ai-will-quote/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://getdiscoverable.io/blog/tasting-note-ai-will-quote/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
