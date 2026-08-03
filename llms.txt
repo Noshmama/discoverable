@@ -36,6 +36,7 @@ The through-line: it used to be "get to page one"; now it's "be the answer the m
 - FAQ (getting found by AI): https://getdiscoverable.io/faq/
 - Free AI-Visibility Checklist: https://getdiscoverable.io/checklist/
 - About Zillah Bahar: https://getdiscoverable.io/about/
+- Press (bylines & coverage): https://getdiscoverable.io/press/
 - Blog (Notes on being found): https://getdiscoverable.io/blog/
   - Wineries' Biggest Fear Is Selling. So Why Is All Their AI Pointed at the Cellar?: https://getdiscoverable.io/blog/state-of-winery-health-ai-gap/
   - Harvard's Wine-and-AI Symposium Covered Everything — Except How Buyers Will Find You: https://getdiscoverable.io/blog/wine-ai-symposium-demand-side/
