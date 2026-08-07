@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TZD5HHH2XE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-TZD5HHH2XE');
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Structured Data, Explained: The Hidden Labels That Get a Page Quoted by AI | GetDiscoverable.io</title>
+  <meta name="description" content="A plain-English, field-by-field walkthrough of the structured data on a real page — what each line tells a machine, and why it's the piece that most directly gets you quoted by AI. COLAClear is the worked example.">
+  <link rel="canonical" href="https://getdiscoverable.io/blog/structured-data-explained/">
+  <meta name="theme-color" content="#4F2AE0">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="GetDiscoverable.io">
+  <meta property="og:title" content="Structured Data, Explained: The Hidden Labels That Get a Page Quoted by AI">
+  <meta property="og:description" content="What structured data actually is, walked field by field through a real page's schema — and why it's the piece that most directly decides whether an AI can quote you by name.">
+  <meta property="og:url" content="https://getdiscoverable.io/blog/structured-data-explained/">
+  <meta property="og:image" content="https://getdiscoverable.io/images/structured-data-hero.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="800">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://getdiscoverable.io/images/structured-data-hero.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap">
+  <link rel="stylesheet" href="/css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org","@type":"BlogPosting",
+    "headline":"Structured Data, Explained: The Hidden Labels That Get a Page Quoted by AI",
+    "description":"A plain-English, field-by-field walkthrough of the structured data on a real page, and why it's the piece that most directly decides whether an AI can quote you by name.",
+    "author":{"@type":"Person","name":"Zillah Bahar","url":"https://getdiscoverable.io/about/"},
+    "publisher":{"@type":"Person","name":"Zillah Bahar"},
+    "datePublished":"2026-08-07",
+    "image":"https://getdiscoverable.io/images/structured-data-hero.jpg",
+    "mainEntityOfPage":"https://getdiscoverable.io/blog/structured-data-explained/",
+    "about":["Structured data","Schema.org","JSON-LD","Generative Engine Optimization","AI search visibility"]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+      {"@type":"Question","name":"What is structured data?","acceptedAnswer":{"@type":"Answer","text":"Structured data is a small block of code added to a web page that tells a machine what each part of the page is — for example, this is the author, this is the publish date, this is what the page is about, this is a question and its answer. It never shows on screen. It exists so search engines and AI assistants don't have to guess what your page means."}},
+      {"@type":"Question","name":"What is JSON-LD?","acceptedAnswer":{"@type":"Answer","text":"JSON-LD (JavaScript Object Notation for Linked Data) is the format most sites use to write structured data. It's a small, self-contained block placed in the page's code that lists facts as labeled pairs — headline, author, datePublished, and so on. Google recommends it, and it's the easiest form to add because it sits in one place instead of being woven through the page."}},
+      {"@type":"Question","name":"Does structured data help you get cited by AI?","acceptedAnswer":{"@type":"Answer","text":"Yes. Getting named in an AI answer is a trust decision, and structured data removes the guesswork — it states plainly who wrote a page, what it covers, and which parts are quotable questions and answers. That clean, machine-readable signal makes a page easier for a generative engine to parse, attribute, and quote by name."}}
+    ]
+  }
+  </script>
+  <!-- Vercel Web Analytics -->
+  <script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+  <script defer src="/_vercel/insights/script.js"></script>
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16.png">
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+  <link rel="alternate" type="application/rss+xml" title="GetDiscoverable.io - Notes on being found" href="/rss.xml">
+</head>
+<body>
+  <nav class="nav">
+    <a href="/" class="brand"><span class="dot"></span>GetDiscoverable.io</a>
+    <button class="nav-toggle" aria-label="Menu" onclick="document.getElementById('nav-links').classList.toggle('open')">&#9776;</button>
+    <div class="nav-links" id="nav-links">
+      <a href="/playbook/">Playbook</a>
+      <a href="/case-study/">Case study</a>
+      <a href="/work-with-me/">Work with me</a>
+      <a href="/about/">About</a>
+      <a href="/blog/" class="active">Blog</a>
+      <a href="/faq/">FAQ</a>
+      <a href="/press/">Press</a>
+      <a href="https://www.linkedin.com/in/zillah-bahar/" target="_blank" rel="noopener">LinkedIn &#8599;</a>
+      <a href="/work-with-me/#audit" class="btn btn-primary btn-sm">Get the audit</a>
+    </div>
+  </nav>
+
+  <article>
+  <div class="page-head">
+    <div class="wrap" style="max-width:760px;">
+      <span class="section-eyebrow">Blog &middot; August 2026</span>
+      <h1>Structured Data, Explained: The Hidden Labels That Get a Page Quoted by AI</h1>
+      <p>Structured data is a small block of code that tells a machine what each part of your page <em>is</em> &mdash; who wrote it, when, what it&rsquo;s about, whether something is a question and its answer. It never shows on screen. And it&rsquo;s the single most direct way to make a page easy for an AI to read, trust, and quote by name.</p>
+    </div>
+  </div>
+
+  <div class="section" style="padding-top:1rem;">
+    <div class="wrap prose">
+      <figure style="margin:0 0 2rem;">
+        <img src="/images/structured-data-hero.jpg" alt="A clean web article card floating above a glowing blue layer of HTML tags and a knowledge graph labeled author, date, topic, tag, and category — the machine-readable layer beneath a human-facing page." style="width:100%; height:auto; display:block; border-radius:12px;">
+      </figure>
+
+      <p>In <a href="/blog/how-i-built-this-site-to-be-found-by-ai/">my teardown of how this site was built to be found by AI</a>, structured data was one move out of eight. It deserves its own post &mdash; because it&rsquo;s the piece that most directly decides whether a machine can quote you <em>by name</em>. So here it is, up close: what it is, exactly what it looks like on a real page, and why each line matters. The worked example is a <a href="https://www.colaclear.com/blog/spirits-age-statements/?utm_source=getdiscoverable&amp;utm_medium=blog&amp;utm_campaign=winery-crosslink">COLAClear blog post</a> &mdash; a live page, not a mock-up.</p>
+
+      <h3>The one-sentence version</h3>
+      <p>Your reader sees a headline, a byline, a photo. A machine sees none of that as meaning &mdash; unless you label it. Structured data is those labels: a small chunk of code, invisible to visitors, whose only job is to say &ldquo;this is the author,&rdquo; &ldquo;this is the publish date,&rdquo; &ldquo;this is what the page is about.&rdquo; Most sites use a format called <strong>JSON-LD</strong> &mdash; a tidy block of labeled facts that sits in the page&rsquo;s code in one place. Google recommends it, and it&rsquo;s the easiest kind to add.</p>
+
+      <h3>What it looks like on a real page</h3>
+      <p>Here is the structured data on that COLAClear post, trimmed to the essentials. Don&rsquo;t worry about the punctuation &mdash; read it like a form the page fills out for machines:</p>
+
+      <pre style="background:#0f1120; color:#d6dcff; border-radius:10px; padding:1.1rem 1.25rem; overflow-x:auto; font-size:.82rem; line-height:1.6; margin:0 0 1rem;">{
+  "@type": "Article",
+  "headline": "Age Statements on Spirits Labels: When
+               \"Time in Oak\" Has to Appear",
+  "author":    { "@type": "Person", "name": "Zillah Bahar" },
+  "publisher": { "@type": "Organization", "name": "COLAClear" },
+  "datePublished": "2026-08-07",
+  "description": "When distilled spirits must carry an age
+                  statement under 27 CFR 5.74 …",
+  "about": [ "Distilled spirits age statement",
+             "27 CFR 5.74", "Whisky age statement" ]
+}</pre>
+
+      <p>Now the same block, line by line &mdash; and what each line earns you when an AI is deciding whether to trust and quote the page:</p>
+
+      <ul>
+        <li><strong><code>@type: Article</code></strong> &mdash; says what this thing <em>is</em>. Not a product, not a bio, not a store page &mdash; an article. The machine now knows to treat it as something it can summarize and cite.</li>
+        <li><strong><code>headline</code></strong> &mdash; the title, handed over as a clean fact instead of being guessed from the biggest text on the page.</li>
+        <li><strong><code>author</code></strong> and <strong><code>publisher</code></strong> &mdash; who stands behind the content, and the brand it belongs to. This is the trust signal AI leans on hardest. A claim from a named author at a named publisher is worth more to a machine than an anonymous page.</li>
+        <li><strong><code>datePublished</code></strong> &mdash; proof the page is current. Assistants prefer fresh sources, and this states the date outright rather than making them infer it.</li>
+        <li><strong><code>description</code></strong> &mdash; a one-line summary the machine can lift as-is when it needs a short version of the page.</li>
+        <li><strong><code>about</code></strong> &mdash; the quiet powerhouse. You <em>list the topics yourself</em> &mdash; here, &ldquo;27 CFR 5.74,&rdquo; &ldquo;whisky age statement.&rdquo; Instead of hoping a machine works out what your page covers, you tell it. When someone asks an AI about whisky age statements, a page that named that topic in its own labels is far easier to match and surface.</li>
+      </ul>
+
+      <p>None of this changes a word your readers see. It changes what the machine can say about you with confidence.</p>
+
+      <h3>The markup that actually gets you quoted: FAQ</h3>
+      <p>One kind of structured data does more than describe the page &mdash; it makes a piece of it directly quotable. It&rsquo;s called <strong>FAQ markup</strong> (<code>FAQPage</code>), and it labels a question and its answer as exactly that. When your answer is marked up this way, it becomes eligible to be lifted straight into a search answer box or an AI reply. Here&rsquo;s a COLAClear example:</p>
+
+      <pre style="background:#0f1120; color:#d6dcff; border-radius:10px; padding:1.1rem 1.25rem; overflow-x:auto; font-size:.82rem; line-height:1.6; margin:0 0 1rem;">{
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "Does a whisky under four years old need
+             an age statement?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Under 27 CFR 5.74, any whisky aged
+        less than four years must carry an age statement,
+        unless it is labeled 'bottled in bond,' which
+        already means at least four years."
+    }
+  }]
+}</pre>
+
+      <p>The trick is that the question should be one a real person actually asks, and the answer should be a clean, complete sentence or two &mdash; because the machine may quote it word for word. Write the answer you&rsquo;d be happy to see attributed to you in an AI reply. (This very page uses FAQ markup, too &mdash; it&rsquo;s in the code you can&rsquo;t see.)</p>
+
+      <h3>Why this is GEO, not just SEO</h3>
+      <p>Getting cited by an AI is a trust game. The model chooses which sources to surface and name, and it favors the ones it can parse without ambiguity. Structured data hands it exactly that: a plain statement of what your page is, who&rsquo;s behind it, what it covers, and which parts are quotable. That&rsquo;s the clean signal a generative engine wants before it puts your name in an answer.</p>
+      <p>It works. This is part of the same setup that got <a href="/case-study/">COLAClear named in Google&rsquo;s AI Overview</a> with zero paid media &mdash; and, more recently, ChatGPT has started sending COLAClear real visitors, landing straight from AI answers. Structured data isn&rsquo;t the whole reason. But it&rsquo;s a big part of why the machines can find the page, understand it, and pass it along with a name attached.</p>
+
+      <h3>What to do (you don&rsquo;t need to be a developer)</h3>
+      <ul>
+        <li>Put <strong>Article</strong> (or <strong>BlogPosting</strong>) schema on every post: headline, author, publisher, date, description &mdash; and an honest <code>about</code> list of the real topics.</li>
+        <li>Add <strong>FAQ markup</strong> to any genuine question-and-answer on the page. That&rsquo;s the piece most likely to be quoted.</li>
+        <li>Keep the author and publisher names <strong>identical everywhere</strong>, so the machine reads one trusted source, not several faint ones.</li>
+        <li>Don&rsquo;t hand-write the punctuation from scratch &mdash; a generator gets the format right; your job is to supply true, specific values.</li>
+      </ul>
+
+      <div class="callout"><p>That&rsquo;s structured data up close. Want the full eight-move method it sits inside? It&rsquo;s in the <a href="/playbook/">Playbook</a>. Want someone to set it up for your brand? That&rsquo;s the <a href="/work-with-me/#audit">AI-Visibility Audit</a>.</p></div>
+
+      <p style="font-size:.92rem; color:var(--muted); margin-top:1.6rem;"><em>Zillah Bahar is the founder of COLAClear and writes about getting found by AI at GetDiscoverable.io.</em></p>
+    </div>
+  </div>
+  </article>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div><div class="brand"><span class="dot"></span>GetDiscoverable.io</div>
+        <div class="footer-note">A primer on getting found by search engines and AI, by Zillah Bahar. COLAClear is used throughout as a worked example.</div></div>
+      <div class="footer-links">
+        <a href="/playbook/">Playbook</a>
+        <a href="/case-study/">Case study</a>
+        <a href="/blog/">Blog</a>
+        <a href="/faq/">FAQ</a>
+      <a href="/press/">Press</a>
+        <a href="/work-with-me/">Work with me</a>
+        <a href="/about/">About</a>
+        <a href="https://www.linkedin.com/in/zillah-bahar/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
