@@ -31,6 +31,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://getdiscoverable.io/blog/how-to-know-if-ai-recommends-you/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://getdiscoverable.io/blog/will-ai-content-get-you-penalized/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
