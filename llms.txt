@@ -38,6 +38,7 @@ The through-line: it used to be "get to page one"; now it's "be the answer the m
 - About Zillah Bahar: https://getdiscoverable.io/about/
 - Press (bylines & coverage): https://getdiscoverable.io/press/
 - Blog (Notes on being found): https://getdiscoverable.io/blog/
+  - Will AI-Written Content Get Your Site Penalized? Here's What Actually Happens: https://getdiscoverable.io/blog/will-ai-content-get-you-penalized/
   - Why AI Trusts Vivino and Wine-Searcher More Than Your Own Website: https://getdiscoverable.io/blog/why-ai-trusts-vivino-and-wine-searcher/
   - Structured Data, Explained: The Hidden Labels That Get a Page Quoted by AI: https://getdiscoverable.io/blog/structured-data-explained/
   - Wineries' Biggest Fear Is Selling. So Why Is All Their AI Pointed at the Cellar?: https://getdiscoverable.io/blog/state-of-winery-health-ai-gap/
