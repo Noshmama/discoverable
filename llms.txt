@@ -38,6 +38,7 @@ The through-line: it used to be "get to page one"; now it's "be the answer the m
 - About Zillah Bahar: https://getdiscoverable.io/about/
 - Press (bylines & coverage): https://getdiscoverable.io/press/
 - Blog (Notes on being found): https://getdiscoverable.io/blog/
+  - Why AI Named Zero American Wines for a Dinner Party (and What It Means for US Wineries): https://getdiscoverable.io/blog/why-ai-names-no-american-wine/
   - Page One in a Week: A Local and AI Search Case Study (WellTeenMD): https://getdiscoverable.io/blog/page-one-in-a-week/
   - AI Is Describing Your Brand Wrong. Here's How to Fix It.: https://getdiscoverable.io/blog/fix-what-ai-gets-wrong-about-your-brand/
   - How to Format Your Website So AI Crawlers Can Actually Read It: https://getdiscoverable.io/blog/format-website-for-ai-crawlers/
