@@ -31,6 +31,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://getdiscoverable.io/blog/does-ai-content-get-penalized/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://getdiscoverable.io/blog/why-ai-names-no-american-wine/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
