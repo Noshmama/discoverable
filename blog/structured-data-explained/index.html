@@ -94,10 +94,10 @@
 
       <p>In <a href="/blog/how-i-built-this-site-to-be-found-by-ai/">my teardown of how this site was built to be found by AI</a>, structured data was one move out of eight. It deserves its own post &mdash; because it&rsquo;s the piece that most directly decides whether a machine can quote you <em>by name</em>. So here it is, up close: what it is, exactly what it looks like on a real page, and why each line matters. The worked example is a <a href="https://www.colaclear.com/blog/spirits-age-statements/?utm_source=getdiscoverable&amp;utm_medium=blog&amp;utm_campaign=winery-crosslink">COLAClear blog post</a> &mdash; a live page, not a mock-up.</p>
 
-      <h3>The one-sentence version</h3>
+      <h2>The one-sentence version</h2>
       <p>Your reader sees a headline, a byline, a photo. A machine sees none of that as meaning &mdash; unless you label it. Structured data is those labels: a small chunk of code, invisible to visitors, whose only job is to say &ldquo;this is the author,&rdquo; &ldquo;this is the publish date,&rdquo; &ldquo;this is what the page is about.&rdquo; Most sites use a format called <strong>JSON-LD</strong> &mdash; a tidy block of labeled facts that sits in the page&rsquo;s code in one place. Google recommends it, and it&rsquo;s the easiest kind to add.</p>
 
-      <h3>What it looks like on a real page</h3>
+      <h2>What it looks like on a real page</h2>
       <p>Here is the structured data on that COLAClear post, trimmed to the essentials. Don&rsquo;t worry about the punctuation &mdash; read it like a form the page fills out for machines:</p>
 
       <pre style="background:#0f1120; color:#d6dcff; border-radius:10px; padding:1.1rem 1.25rem; overflow-x:auto; font-size:.82rem; line-height:1.6; margin:0 0 1rem;">{
@@ -126,7 +126,7 @@
 
       <p>None of this changes a word your readers see. It changes what the machine can say about you with confidence.</p>
 
-      <h3>The markup that actually gets you quoted: FAQ</h3>
+      <h2>The markup that actually gets you quoted: FAQ</h2>
       <p>One kind of structured data does more than describe the page &mdash; it makes a piece of it directly quotable. It&rsquo;s called <strong>FAQ markup</strong> (<code>FAQPage</code>), and it labels a question and its answer as exactly that. When your answer is marked up this way, it becomes eligible to be lifted straight into a search answer box or an AI reply. Here&rsquo;s a COLAClear example:</p>
 
       <pre style="background:#0f1120; color:#d6dcff; border-radius:10px; padding:1.1rem 1.25rem; overflow-x:auto; font-size:.82rem; line-height:1.6; margin:0 0 1rem;">{
@@ -147,11 +147,11 @@
 
       <p>The trick is that the question should be one a real person actually asks, and the answer should be a clean, complete sentence or two &mdash; because the machine may quote it word for word. Write the answer you&rsquo;d be happy to see attributed to you in an AI reply. (This very page uses FAQ markup, too &mdash; it&rsquo;s in the code you can&rsquo;t see.)</p>
 
-      <h3>Why this is GEO, not just SEO</h3>
+      <h2>Why this is GEO, not just SEO</h2>
       <p>Getting cited by an AI is a trust game. The model chooses which sources to surface and name, and it favors the ones it can parse without ambiguity. Structured data hands it exactly that: a plain statement of what your page is, who&rsquo;s behind it, what it covers, and which parts are quotable. That&rsquo;s the clean signal a generative engine wants before it puts your name in an answer.</p>
       <p>It works. This is part of the same setup that got <a href="/case-study/">COLAClear named in Google&rsquo;s AI Overview</a> with zero paid media &mdash; and, more recently, ChatGPT has started sending COLAClear real visitors, landing straight from AI answers. Structured data isn&rsquo;t the whole reason. But it&rsquo;s a big part of why the machines can find the page, understand it, and pass it along with a name attached.</p>
 
-      <h3>What to do (you don&rsquo;t need to be a developer)</h3>
+      <h2>What to do (you don&rsquo;t need to be a developer)</h2>
       <ul>
         <li>Put <strong>Article</strong> (or <strong>BlogPosting</strong>) schema on every post: headline, author, publisher, date, description &mdash; and an honest <code>about</code> list of the real topics.</li>
         <li>Add <strong>FAQ markup</strong> to any genuine question-and-answer on the page. That&rsquo;s the piece most likely to be quoted.</li>
