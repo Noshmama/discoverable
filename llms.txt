@@ -34,6 +34,7 @@ The through-line: it used to be "get to page one"; now it's "be the answer the m
 - Case study (COLAClear): https://getdiscoverable.io/case-study/
 - Work with me (consulting): https://getdiscoverable.io/work-with-me/
 - AI visibility consulting for wineries: https://getdiscoverable.io/ai-visibility-for-wineries/
+- AI visibility consulting for distilleries: https://getdiscoverable.io/ai-visibility-for-distilleries/
 - FAQ (getting found by AI): https://getdiscoverable.io/faq/
 - Free AI-Visibility Checklist: https://getdiscoverable.io/checklist/
 - About Zillah Bahar: https://getdiscoverable.io/about/
