@@ -34,3 +34,25 @@ Base wine-post URL: `https://getdiscoverable.io/blog/why-ai-names-some-wineries/
 
 For a different post, keep the same `utm_source`/`utm_medium`/`utm_campaign`
 convention and just change the base URL.
+
+## Deploy / git workflow
+This repo deploys to getdiscoverable.io via Vercel by pushing to `main` directly (no PR
+required). The editorial standard for all posts is in `STYLE.md`.
+
+## Her other projects (cross-project context)
+Zillah runs three sites. Keep them straight:
+- **COLAClear** — colaclear.com. TTB label pre-screening tool. Repo `Noshmama/cola-clear`
+  (root). Vercel project `cola-clear`. Deploy: PR to `master`.
+- **WellTeenMD** — wellteenmd.com. Teen weight-management practice. Lives in the `clinic/`
+  folder of the `Noshmama/cola-clear` repo (NOT a separate repo). Vercel project
+  `cola-clear-2omn`, Root Directory `clinic`. Deploy: PR to `master`.
+- **GetDiscoverable.io** — this repo.
+
+## How Zillah likes to work
+- Plain English, minimal jargon. She is not a developer. For Git, Vercel, or dashboard
+  tasks, give click-by-click steps and prefer to do the work end to end rather than making
+  her click through it.
+- Never publish, deploy, or merge without her review and approval, unless she explicitly
+  delegates it.
+- Be honest and evidence-based. Never overstate her background or fabricate. Keep it brief.
+- Never use em dashes. Never use "quiet" or "quietly". Always show full URLs.
