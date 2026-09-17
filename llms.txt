@@ -42,6 +42,7 @@ The through-line: it used to be "get to page one"; now it's "be the answer the m
 - About Zillah Bahar: https://getdiscoverable.io/about/
 - Press (bylines & coverage): https://getdiscoverable.io/press/
 - Blog (Notes on being found): https://getdiscoverable.io/blog/
+  - Why the Same SEO Fix Doesn't Work on Every Website: https://getdiscoverable.io/blog/same-seo-fix-wont-work-every-site/
   - I Asked AI Why It Doesn't Recommend Me. Here's How to Read the Answer.: https://getdiscoverable.io/blog/ask-ai-why-it-doesnt-recommend-you/
   - How to Get Found in Every Town You Serve: The Location-Page Playbook: https://getdiscoverable.io/blog/location-pages-local-ai-search/
   - Does Auto-Generated AI Content Get Penalized? What "Scaled Content Abuse" Actually Means: https://getdiscoverable.io/blog/does-ai-content-get-penalized/
